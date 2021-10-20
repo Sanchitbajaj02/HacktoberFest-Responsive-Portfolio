@@ -1,0 +1,310 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Merienda', cursive;
+	position: absolute;
+}
+/*Head Start*/
+#head{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+}
+
+.details img{
+	height: 200px;
+	width: 200px;
+	border:3px solid #ffffff;
+	border-radius: 100%;
+	margin-top: 80px;
+	transition: all;
+	transition-duration: 0.5s;
+}
+
+.details img:hover{
+	height: 215px;
+	width: 215px;
+	border:3px solid #ff79bc;
+	border-radius: 100%;
+
+}
+
+.details hr{
+	width: 60px;
+	margin: 15px auto;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+}
+.details .name{
+	color: #ffffff;
+	margin-left: 11px;
+	font-family: 'Merienda', cursive;
+}
+
+.details .job{
+	color: #ff79bc;
+	margin-left: 25px;
+	margin-top: 15px;
+	font-family: 'Merienda', cursive;
+}
+
+/*Head End*/
+
+#container{
+	display: grid;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+/*About Section*/
+
+.about{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	height: 330px;
+}
+
+.about-left{
+	margin-right: 13px;
+	background-color: white;
+}
+
+.about-left p{
+	line-height: 20px;
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-right: 25px;
+	font-family: 'Sanchez', serif;
+
+}
+
+.about-right{
+	margin-left: 13px;
+	background-color: #ce317f;
+}
+
+
+.about-right p{
+	color: #ffffff;
+	margin-top: 15px;
+	margin-left: 30px;
+	font-family: 'Sanchez', serif;
+
+}
+
+.about-right .skill{
+	margin-left: 30px;
+	margin-top: 5px;
+	border-radius: 4px;
+	height: 10px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all;
+	transition-duration: 0.5s;
+}
+
+
+.skill p {
+    color: black;
+    margin-top: 0px;
+    font-size: 9px;
+    margin-left: 200px;
+}
+
+.about-right .skill-1{
+	width: 400px;
+}
+
+.skill-1:hover{
+	border-radius: 10px;
+	background-color: #f5bbe3;
+	width: 400px;
+}
+
+.about-right .skill-2{
+	width: 280px;
+}
+
+.skill-2:hover{
+	border-radius: 10px;
+	background-color: #f5bbe3;
+	width: 280px;
+}
+
+.about-right .skill-3{
+	width: 320px;
+}
+
+.skill-3:hover{
+	border-radius: 10px;
+	background-color: #f5bbe3;
+	width: 320px;
+}
+
+.about-right .skill-4{
+	width: 400px;
+}
+
+.skill-4:hover{
+	border-radius: 10px;
+	background-color: #f5bbe3;
+	width: 400px;
+}
+
+/*About End*/
+
+/*Education Starts Here*/
+
+.education{
+	margin-top: 26px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+.edu-left{
+	background-color: #ce317f;
+	margin-right: 13px;
+	width: 680px;
+
+}
+
+.edu-right{
+	margin-left: 13px;
+	background-color: #ffffff;
+}
+
+.course{
+	color: #f7d8d8;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-family: 'Sanchez', serif;
+
+}
+
+.college{
+	color: white;
+	margin-top: 2px;
+	margin-left: 46px;
+	font-family: 'Sanchez', serif;
+}
+
+ul{
+	font-family: 'Sanchez', serif;
+	margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+ul li{
+	margin-top: 10px;
+}
+
+/*Education Ends Here*/
+
+/*Contact and Experience Starts*/
+#contact{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	margin-top: 26px;
+	height: 300px;
+}
+
+.contact-left{
+	background-color: #ffffff;
+	margin-right: 13px;
+}
+.contact-left h2{
+	color:#ce317f;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.contact-left i{
+	font-size: 18px;
+	margin-left: 33px;
+}
+
+.contact-left p{
+	font-family: 'Sanchez', serif;
+	padding: 10px 0px;
+}
+.contact-right{
+	margin-left: 13px;
+	background-color: #ce317f;
+	width: 680px;
+}
+
+.para{
+	color: white;
+    margin-top: 4px;
+    margin-left: 32px;
+    font-family: 'Sanchez', serif;
+    margin-right: 90px;
+}
+
+/*Contact Ends*/
+
+/*Footer*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 15px;
+}
+
+/*Social Icons*/
+.social-icons{
+	display: flex;
+	grid-auto-columns: repeat(1,1fr);
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	background-color: #ce317f;
+	color: #ffffff;
+	margin-left: 10px;
+
+}
+
+.icon:hover{
+	background-color: #c7166e;
+}
+
+.icon i{
+	font-size: 20px;
+}
+
+
+/*Utility Class*/
+.h-main{
+	color: #ffffff;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+.h-primary2{
+	color:#ce317f;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
